@@ -8,7 +8,7 @@ public class HelloController {
 
     @GetMapping("/")
     public String hello() {
-        return "Bài tập CI  Hello docker : 2280602340_Bùi Quốc Phong ";
+        return "Bài tập CI  Hello docker lần 2 : 2280602340_Bùi Quốc Phong ";
     }
 
 }
