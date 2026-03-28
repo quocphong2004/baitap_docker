@@ -33,3 +33,7 @@ jobs:
 
       - name: Push image
         run: docker push buifhong/baitap_dock
+
+ 
+      - name: Trigger Deploy Webhook
+        run: curl -X GET ${{ secrets.DEPLOY_URL }}
